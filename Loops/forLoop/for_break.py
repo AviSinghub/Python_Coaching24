@@ -1,0 +1,8 @@
+# With the break statement we can stop the loop before it has looped through all the items:  
+
+fruits = ["apple", "banana", "cherry", "guava", "lemon", "blueberry", "candy", "orange"]
+for x in fruits:
+  print(x)
+  if x == "lemon":
+    break
+  
